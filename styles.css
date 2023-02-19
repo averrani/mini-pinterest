@@ -1,0 +1,162 @@
+
+		body {
+			font-family: "Trebuchet MS";
+			font-size: 15px;
+			background-image: url('https://bdw1.univ-lyon1.fr/p1913852/mini-Pinterest/background.png');
+		}
+		.image-bord {
+			float: left;
+			padding: 15px;
+			width: 400px;
+			height: 400px;
+		}
+		.image {
+			max-width: 100%;
+			max-height: 100%;
+		}
+		.image img:hover{
+
+			max-width: 102%;
+			max-height: 102%;
+			box-shadow: 5px 5px 5px 7px rgba(255,0,0,.2)
+		}
+		.site {
+			color: white;
+			font-weight: bold;
+			font-color: black;  
+			font-size: 16pt;	
+			padding: 10px;
+			border-radius: 15px;
+			margin-top: 10px; 
+			margin-bottom: 10px; 
+		}
+		.h1 {
+			font-family: "Trebuchet MS";
+			background-color: transparent; 
+			color: grey;
+			font-weight: bold;  
+			font-size: 27pt;	
+			padding: 10px;
+			border-width:2px;
+			border-style:solid;
+			border-color:#F2E0A9;
+			text-align: center;
+			border-radius: 15px;
+			margin-top: 10px; 
+			margin-bottom: 10px;
+		}
+		.p {
+			font-family: "Trebuchet MS";
+			font-size: 15px;
+			background-color: #F1E4BD; 
+			color: #52400A;
+			font-weight: bold;
+			padding: 10px;
+			border-radius: 5px;
+			
+		}
+		.p1 {
+			text-align: center;
+		}
+		.p2 {
+			font-family: "Trebuchet MS";
+			text-align: right;
+				
+		}
+
+		input {
+			font-weight: bold;
+			font-color: black;
+		}
+		.connexion {
+			background-color: #F1E4BD; 
+			color: #52400A;
+			border-color: #F1E2B6;
+			position: absolute;
+			top: 35px;	
+			right: 15px;
+		}
+		.connexion:hover {
+			background-color: #E9CF80;
+			border-color: #E9CF80;
+		}
+		.deconnexion {
+			background-color: #F1E4BD; 
+			color: #52400A;
+			border-color: #F1E2B6;
+			position: absolute;
+			top: 40px;	
+			right: 20px;
+		}
+		.deconnexion:hover {
+			background-color: #E9CF80;
+			border-color: #E9CF80;
+		}
+		.login {
+			background-color: #F1E4BD; 
+			color: #52400A;
+			border-color: #F1E2B6;
+			position: absolute;
+			top: 35px;	
+			right: 120px;
+		}
+		.login:hover {
+			background-color: #E9CF80;
+			border-color: #E9CF80;
+		}
+		.ajout {
+			background-color: #F1E4BD; 
+			color: #52400A;
+			border-color: #F1E2B6;
+		}
+		.ajout:hover {
+			background-color: #E9CF80;
+			border-color: #E9CF80;
+		}
+		.retour {
+				background-color: #F1E4BD; 
+				color: #52400A;
+				border-color: #F1E2B6;
+				padding: 5px;
+				margin: 5px;
+				bottom: 5px;
+		}
+		.retour:hover {
+			background-color: #E9CF80;
+			border-color: #E9CF80;
+		}
+		.loginBanner {
+			position: absolute;
+			top: 150px;
+			left: 500px;
+		}
+		.center {
+			text-align: center;
+			color: #52400A;
+			font-weight: bold;
+			font-size: 20px;
+			vertical-align: middle;
+			margin-top: 5px;
+			margin-bottom: 10px;	
+		}
+		.import {
+			text-align: center;
+			color: #52400A;
+			font-weight:bold;
+			font-size: 20px;
+			vertical-align: middle;
+			margin-top: 5px;
+			margin-bottom: 10px;	
+		}
+		.loginInfo	{
+			color: #52400A;
+		}
+		.stats {
+			margin-top: 5px;
+			line-height: 30px;
+			color: grey;
+			font-size: 20px;
+		}
+		.nomStat {
+			font-weight: bold;
+		}
